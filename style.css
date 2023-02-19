@@ -1,0 +1,88 @@
+/*Start format*/
+* {
+    /* Display & Box Model */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Header blocks color*/
+.header-block1, .header-block2, .header-block3 {
+    /* Color */
+    background-color: #777777;
+}
+
+
+
+/*Header styles*/
+.header{
+    /* Display & Box Model */
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-block1{
+    /* Display & Box Model */
+    width: 200px;
+}
+
+
+
+.header-block2{
+    /* Display & Box Model */
+    width: 400px;
+}
+
+
+
+.header-block3{
+    /* Display & Box Model */
+    width: 700px;
+    padding: 30px;
+}
+
+
+
+/*Li style*/
+.contacts li {
+    /*text*/
+    list-style-type: none;
+    text-align: right;
+
+    /* Display & Box Model */
+    padding-bottom: 2px;
+
+}
+
+
+
+/*Urls text decoration*/
+.contacts a:not(.mail):not(.url){
+    /*Text*/
+    text-decoration: none;
+}
+
+
+
+/*Header urls style*/
+.contacts a{
+    /* Color */
+    color: white;
+
+    /*Other*/
+    transition-duration: .15s;
+}
+
+.contacts a:hover{
+    /* Color */
+    opacity: .6;
+}
